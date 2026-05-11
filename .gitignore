@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environnement virtuel
+venv/
+.env
+.venv/
+
+# Données sensibles / fichiers CSV de match
+data/*.csv
+
+# Fichiers temporaires Streamlit
+.streamlit/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de credentials Google Drive
+credentials.json
+token.json
+*.json
+
+# Logs
+*.log
